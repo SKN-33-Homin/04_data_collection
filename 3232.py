@@ -2,17 +2,17 @@ import requests
 import xmltodict
 import json
 
-url = "http://ws.bus.go.kr/api/rest/busRouteInfo/getRoutePath"
+url = 'http://ws.bus.go.kr/api/rest/busRouteInfo/getRoutePath'
 
 params = {
-    "serviceKey": ".",
-    "busRouteId": "100100112"
+    "serviceKey" : "a5c44e9278e37644130b7b7dd50411d6783c544bf6d1995fa00cec8bbe5bb4a1",
+    "busRouteId" : "100100112"
 }
 
 try:
     response = requests.get(
         url,
-        params=params,
+        params = params,
         timeout=10
     )
 
