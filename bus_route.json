@@ -1,0 +1,11 @@
+{
+    "ServiceResult": {
+        "comMsgHeader": null,
+        "msgHeader": {
+            "headerCd": "7",
+            "headerMsg": "Key인증실패: SERVICE KEY IS NOT REGISTERED ERROR.[인증모듈 에러코드(30)]",
+            "itemCount": "0"
+        },
+        "msgBody": null
+    }
+}
