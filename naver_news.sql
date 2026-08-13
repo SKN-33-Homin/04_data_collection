@@ -8,6 +8,6 @@ create table naver_news (
     created_at datetime default (current_timestamp)
 );
 
-#link 컬럼에 unique 제약 조건 적용
+# link 컬럼에 unique 제약조건 추가(중복 방지)
 alter table naver_news
 add constraint uq_naver_news_link unique (link);
